@@ -1,0 +1,16 @@
+.box{
+    border: 1px solid black;
+    height:150px;
+    width: 150px;
+    background: linear-gradient(to right, orange, white,green );
+}
+.my{
+    height: 150px;
+    width: 150px;
+    background: radial-gradient(circle, orange, green);
+}
+.hero{
+    height: 150px;
+    width: 150px;
+    background: conic-gradient(from 0deg, blue, green, yellow, red);
+}

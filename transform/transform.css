@@ -1,0 +1,9 @@
+.box{
+    background:aqua;
+   /* transform:translate(10px, 20px);*/
+   transform:rotate(45deg);
+   transform:scale(1.5);
+   transform:skew(20deg, 10deg);
+   transform:translate(10px, 20px) rotate(45deg) scale(1.5) skew(20deg, 10deg);
+   transform-origin:top left;
+}

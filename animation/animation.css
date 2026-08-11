@@ -1,0 +1,13 @@
+.container{
+    border: 1px solid black;
+    background-color: brown;
+    height: 300px;
+    width:300px;
+
+}
+.box{
+    border: 2px solid black;
+    background-color: aqua;
+    --dark-red:#981a2c;
+    color: var(--dark-red)
+}

@@ -1,0 +1,12 @@
+h1{
+    text-shadow: 3px 3px 3px red;
+     text-shadow: 3px 3px 3px red,
+                 3px 3px 3px blue,
+                 3px 3px 3px green;
+}
+.box{
+    height: 150px;
+    width: 150px;
+    background: linear-gradient(to right, orange, white,green );
+    box-shadow: 10px 10px 5px red;
+}

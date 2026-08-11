@@ -1,0 +1,9 @@
+div{
+    height: 100px;
+    width: 100px;
+    background:aqua;
+    border: 2px solid black;
+}
+.translated{
+    transform:perspective(10px) translateZ(-10px);
+}

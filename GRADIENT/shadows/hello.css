@@ -1,0 +1,38 @@
+.box {
+    width: 400px;
+    height: 300px;
+    border: 2px solid black;
+    position: relative;
+}
+
+.hello {
+    position: absolute;
+    animation: move 4s infinite;
+}
+
+@keyframes move {
+    0% {
+        top: 0;
+        left: 0;
+    }
+
+    25% {
+        top: 0;
+        left: 350px;
+    }
+
+    50% {
+        top: 270px;
+        left: 350px;
+    }
+
+    75% {
+        top: 270px;
+        left: 0;
+    }
+
+    100% {
+        top: 0;
+        left: 0;
+    }
+}
